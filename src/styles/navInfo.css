@@ -1,0 +1,33 @@
+.nav__info {
+  padding-left: 2em;
+  display: none;
+}
+
+.m-bottom {
+  margin-bottom: 0.5em;
+}
+
+.info__title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.info__contact-a {
+  color: black;
+  display: inline-block;
+}
+li {
+  display: flex;
+  gap: 4px;
+}
+.show {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .nav__info {
+    display: block;
+  }
+  .show {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.list__menu {
+  display: flex;
+  justify-content: space-around;
+}
+.list__menu-li {
+  padding: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list__menu-li:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 1.5em;
+}
+.list__menu-li:active {
+  background-color: black;
+  color: white;
+  border-radius: 1.5em;
+}
+
+@media (min-width: 600px) {
+  .list__menu {
+    margin: 10px;
+    justify-content: flex-start;
+  }
+  .menu__info {
+    display: none;
+  }
+}
