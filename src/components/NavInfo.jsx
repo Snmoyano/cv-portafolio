@@ -5,11 +5,11 @@ const NavInfo = ({ show }) => {
   return (
     <div className={`nav__info ${show === 1 ? "show" : ""}`}>
       <h2 className="info__title m-bottom">About me</h2>
-      <span className="m-bottom">holaaa mundo</span>
+
       <ul className="info__list m-bottom">
         <li className="info__item">
           {" "}
-          - Front End developer
+          — Front End developer
           <br />
           (HMTL,CSS,JS,React JS , GIT)
         </li>

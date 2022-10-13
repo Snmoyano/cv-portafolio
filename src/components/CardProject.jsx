@@ -1,6 +1,5 @@
 import React from "react";
 import { MdRemoveRedEye } from "react-icons/md";
-import { BiLike } from "react-icons/bi";
 
 import "../styles/cardProject.css";
 
@@ -18,7 +17,7 @@ const CardProject = ({ name, img, domain }) => {
           <span>sustitulo</span>
         </div>
         <div className="content__icons">
-          <BiLike />
+          {/* <BiLike /> */}
           <a href={domain} className="card__link" target="_blank">
             <MdRemoveRedEye />
           </a>
