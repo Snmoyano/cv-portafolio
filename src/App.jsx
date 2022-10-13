@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import CardInfo from "./components/CardInfo";
 import ListProject from "./components/ListProject";
 import NavBar from "./components/NavBar";
-import NavInfo from "./components/navInfo";
+import NavInfo from "./components/NavInfo";
 import About from "./components/About";
 import { useEffect, useState } from "react";
 import ListCertificates from "./components/ListCertificates";
