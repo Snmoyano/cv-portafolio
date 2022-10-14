@@ -6,7 +6,7 @@
   min-height: 100vh;
   width: 100vw;
   justify-content: center;
-  background-image: url("../assets/gif.gif");
+  background-image: url("../assets/9LIZ.gif");
   background-size: cover;
 }
 
@@ -74,6 +74,7 @@
   transition: 0.5s;
   z-index: 10;
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .card:hover .imgBx {
@@ -82,6 +83,7 @@
 }
 
 .card .imgBx::before {
+  border-radius: 50%;
   content: "";
   position: absolute;
   top: 50%;
@@ -89,13 +91,7 @@
   transform: translate(-50%, -50%);
   width: 500px;
   height: 150px;
-  background: linear-gradient(
-    transparent,
-    #01b002,
-    #01b002,
-    #01b002,
-    transparent
-  );
+  background: linear-gradient(transparent, white, white, white, transparent);
   animation: animate2 6s linear infinite;
 }
 
@@ -113,6 +109,7 @@
   position: absolute;
   inset: 3px;
   background: #292929;
+  border-radius: 50%;
 }
 
 .card .imgBx img {
@@ -123,6 +120,7 @@
   width: calc(100% - 20px);
   height: calc(100% - 20px);
   filter: grayscale(1);
+  border-radius: 50%;
 }
 
 .card .content {
@@ -194,7 +192,9 @@
   background: #45f3ff;
   color: #222;
   cursor: pointer;
+  transition: 0.5s transform;
 }
+
 .btn2 {
   display: none;
 }

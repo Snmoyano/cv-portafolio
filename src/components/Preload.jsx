@@ -24,7 +24,7 @@ const Preload = () => {
               <h2>
                 Sergio Nicolas Moyano
                 <br />
-                <span>lo que sea</span>
+                <span>FRONT END DEVELOPER</span>
               </h2>
               <Link to="/portfolio">
                 {" "}
