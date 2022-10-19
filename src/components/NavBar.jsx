@@ -5,16 +5,16 @@ const NavBar = ({ handleShow }) => {
   return (
     <ul className="list__menu">
       <li className="list__menu-li menu__info" onClick={() => handleShow(1)}>
-        Info
+        INFO
       </li>
       <li className="list__menu-li" onClick={() => handleShow(2)}>
-        Projects
+        PROJECTS
       </li>
       <li className="list__menu-li" onClick={() => handleShow(3)}>
-        Certificates
+        CERTIFICATES
       </li>
       <li className="list__menu-li" onClick={() => handleShow(4)}>
-        About
+        ABOUT ME
       </li>
     </ul>
   );

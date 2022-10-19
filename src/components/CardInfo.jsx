@@ -7,7 +7,11 @@ import { TiSocialTwitterCircular } from "react-icons/ti";
 import { SiGooglemaps } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
-
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
+import instagram from "../assets/instagram.svg";
+import clip from "../assets/clip.png";
+//imgBx card__image
 const CardInfo = () => {
   return (
     <article className="card__info">
@@ -15,11 +19,10 @@ const CardInfo = () => {
         <img src={picture} alt="" />
       </div>
 
-      <h1 className="card__title">Frontend Nicolas</h1>
+      <h1 className="card__title">SERGIO NICOLAS MOYANO</h1>
       <ul className="card__list-des">
         <li className="card__description">
-          Full Stack Developer <br /> SQL || CSS || HTML ||JAVASCRIPT ||REACT||
-          REDUX||
+          Developer <br /> SQL || CSS || HTML ||JAVASCRIPT ||REACT|| REDUX||
         </li>
         <li className="card__email"> sergio.nicolas.moyano@gmail.com</li>
       </ul>
@@ -28,13 +31,16 @@ const CardInfo = () => {
           href="https://www.linkedin.com/in/sergio-nicolas-moyano-a04873210/"
           target="_blank"
         >
-          <TiSocialLinkedinCircular />
+          {/* <TiSocialLinkedinCircular /> */}
+          <img src={linkedin} alt="" className="img__logo " />
         </a>
         <a href="https://github.com/Snmoyano" target="_blank">
-          <AiFillGithub />
+          {/* <AiFillGithub /> */}
+          <img src={github} alt="" className="img__logo " />
         </a>
         <a href="" target="_blank">
-          <TiSocialTwitterCircular />
+          {/* <TiSocialTwitterCircular /> */}
+          <img src={instagram} alt="" className="img__logo " />
         </a>
       </div>
       <div className="card__ubication">

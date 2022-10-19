@@ -1,3 +1,6 @@
+.img__logo {
+  width: 2rem;
+}
 .card__info {
   width: 100%;
   display: flex;
@@ -9,13 +12,30 @@
 }
 
 .card__image {
-  width: 150px;
+  width: 135px;
   border: none;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
   bottom: 30px;
   z-index: 1000;
+  box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.315);
+}
+.card__image-circle {
+  z-index: 500;
+  width: 170px;
+  position: absolute;
+  top: 153px;
+  left: 187px;
+  animation: animate 4s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .card__title {
   padding-bottom: 20px;
@@ -35,6 +55,8 @@ a {
   display: flex;
   font-size: 2rem;
   cursor: pointer;
+  color: white;
+  text-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .card__ubication {
   display: flex;
@@ -64,4 +86,15 @@ a {
   color: beige;
   transform: scale(1.1);
   border: none;
+}
+/**/
+@media (min-width: 600px) {
+  .card__image-circle {
+    z-index: 500;
+    width: 170px;
+    position: absolute;
+    top: 251px;
+    left: 164px;
+    animation: animate 4s infinite;
+  }
 }

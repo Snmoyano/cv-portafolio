@@ -1,6 +1,11 @@
 [
   {
-    "name": "CRUD Users",
+    "name": "Poke Api",
+    "domain": "https://poke-api-snmoyano.netlify.app",
+    "image": "../img/poke.png"
+  },
+  {
+    "name": "Api Users",
     "domain": "https://users-crud-snm.netlify.app",
     "image": "../img/crud.png"
   },

@@ -2,6 +2,16 @@
   padding-left: 2em;
   display: none;
 }
+.skills {
+  display: flex;
+  gap: 0.3rem;
+}
+.info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
 
 .m-bottom {
   margin-bottom: 0.5em;

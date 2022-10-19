@@ -14,7 +14,7 @@ const CardProject = ({ name, img, domain }) => {
       <div className="card__content">
         <div className="content__titles">
           <h2 className="card__title">{name}</h2>
-          <span>sustitulo</span>
+          <span>API en React</span>
         </div>
         <div className="content__icons">
           {/* <BiLike /> */}
