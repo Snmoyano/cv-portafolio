@@ -1,5 +1,13 @@
 import React from "react";
 import "../styles/about.css";
+import github from "../assets/github.svg";
+import react from "../assets/react.svg";
+import node from "../assets/nodejs.svg";
+import redux from "../assets/redux.svg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import mongo from "../assets/mongo.svg";
+import postgres from "../assets/sql.svg";
 
 const About = () => {
   return (
@@ -22,6 +30,16 @@ const About = () => {
           certificaiones de fundamentos de la programación y como desarrollador
           FrontEnd.
         </p>
+        <div className="skills">
+          <img src={html} alt="" className="img__logo " />
+          <img src={css} alt="" className="img__logo " />
+          <img src={redux} alt="" className="img__logo " />
+          <img src={node} alt="" className="img__logo " />
+          <img src={react} alt="" className="img__logo " />
+          <img src={github} alt="" className="img__logo " />
+          <img src={postgres} alt="" className="img__logo " />
+          <img src={mongo} alt="" className="img__logo " />
+        </div>
       </div>
     </div>
   );

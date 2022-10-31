@@ -25,10 +25,14 @@ li {
 }
 
 .App {
-  background-image: url("./assets/textura.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
+  background: linear-gradient(
+    to bottom,
+    rgba(147, 206, 222, 1) 0%,
+    rgba(117, 189, 209, 1) 41%,
+    rgba(123, 73, 189, 1) 100%
+  );
+
+  color: black;
   text-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.315);
 }
 
@@ -37,7 +41,12 @@ li {
     display: grid;
     grid-template-columns: 1fr 3fr;
     position: relative;
-    background-image: url("./assets/textura.jpg");
+    background: linear-gradient(
+      to bottom,
+      rgba(147, 206, 222, 1) 0%,
+      rgba(117, 189, 209, 1) 41%,
+      rgba(123, 73, 189, 1) 100%
+    );
   }
   .general__info {
     grid-column: 1/2;

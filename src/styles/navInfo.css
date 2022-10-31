@@ -2,10 +2,7 @@
   padding-left: 2em;
   display: none;
 }
-.skills {
-  display: flex;
-  gap: 0.3rem;
-}
+
 .info__item {
   display: flex;
   flex-direction: column;

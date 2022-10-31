@@ -1,13 +1,5 @@
 import React from "react";
 import "../styles/navInfo.css";
-import github from "../assets/github.svg";
-import react from "../assets/react.svg";
-import node from "../assets/nodejs.svg";
-import redux from "../assets/redux.svg";
-import html from "../assets/html.svg";
-import css from "../assets/css.svg";
-import mongo from "../assets/mongo.svg";
-import postgres from "../assets/sql.svg";
 
 const NavInfo = ({ show }) => {
   return (
@@ -16,7 +8,7 @@ const NavInfo = ({ show }) => {
 
       <ul className="info__list m-bottom">
         <li className="info__item">
-          <div className="skills">
+          {/* <div className="skills">
             <img src={html} alt="" className="img__logo " />
             <img src={css} alt="" className="img__logo " />
             <img src={redux} alt="" className="img__logo " />
@@ -25,7 +17,7 @@ const NavInfo = ({ show }) => {
             <img src={github} alt="" className="img__logo " />
             <img src={postgres} alt="" className="img__logo " />
             <img src={mongo} alt="" className="img__logo " />
-          </div>
+          </div> */}
         </li>
         <li className="info__item"> — Web desing —</li>
         <li className="info__item"> — Mobile Desing —</li>
