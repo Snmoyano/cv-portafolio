@@ -6,13 +6,8 @@
   min-height: 100vh;
   width: 100vw;
   justify-content: center;
-  background: linear-gradient(
-    to bottom,
-    rgba(147, 206, 222, 1) 0%,
-    rgba(117, 189, 209, 1) 41%,
-    rgba(123, 73, 189, 1) 100%
-  );
 }
+
 .btn__img {
   width: 30px;
   aspect-ratio: 1;
@@ -207,6 +202,7 @@
   display: none;
 }
 .card:hover .btn2 {
+  margin-bottom: 30px;
   display: block;
 }
 .card:hover .btn1 {

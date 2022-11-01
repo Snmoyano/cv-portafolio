@@ -9,8 +9,16 @@ import { useEffect, useState } from "react";
 import ListCertificates from "./components/ListCertificates";
 import { Route, Routes } from "react-router-dom";
 import Preload from "./components/Preload";
+import { useThemeContext } from "./context/ThemeContext";
+import ReactSwitch from "react-switch";
 
 function App() {
+  const { contextTheme, setContextTheme } = useThemeContext();
+  const [checked, setChecked] = useState(false);
+  const handleSwitch = (nextChecked) => {
+    setContextTheme((state) => (state === "Light" ? "Dark" : "Light"));
+    setChecked(nextChecked);
+  };
   const [show, setShow] = useState(2);
   const handleShow = (num) => {
     setShow(num);
@@ -19,7 +27,71 @@ function App() {
   useEffect(() => {}, [show]);
 
   return (
-    <div className="App">
+    <div className="App" id={contextTheme}>
+      <div className="container__swtich">
+        <ReactSwitch
+          onChange={handleSwitch}
+          checked={checked}
+          handleDiameter={20}
+          offColor="#1b2b4b"
+          onColor="#0e306e"
+          offHandleColor="#1b2b4b"
+          onHandleColor="#0e306e"
+          height={30}
+          width={55}
+          borderRadius={3}
+          uncheckedIcon={
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100%",
+                fontSize: 13,
+                color: "white",
+                paddingRight: 1,
+              }}
+            >
+              OFF
+            </div>
+          }
+          checkedIcon={
+            <svg viewBox="0 0 10 10" height="100%" width="100%" fill="yellow">
+              <circle r={3} cx={5} cy={5} />
+            </svg>
+          }
+          uncheckedHandleIcon={
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "90%",
+                fontSize: 16,
+              }}
+            >
+              🌑
+            </div>
+          }
+          checkedHandleIcon={
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100%",
+                fontSize: 13,
+                color: "orange",
+                paddingRight: 1,
+              }}
+            >
+              OFF
+            </div>
+          }
+          className="react-switch"
+          id="small-radius-switch"
+        />
+      </div>
       <Routes>
         <Route path="/" element={<Preload />} />
         <Route

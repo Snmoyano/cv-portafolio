@@ -5,13 +5,13 @@ import picture from "../assets/picture.jpg";
 import node from "../assets/nodejs.svg";
 import react from "../assets/react.svg";
 import redux from "../assets/redux.svg";
-import mouse from "../assets/1315.gif";
+import { useState } from "react";
+import { useThemeContext } from "../context/ThemeContext";
 
 const Preload = () => {
   return (
     <>
       <div className="preload">
-        {" "}
         <div className="card">
           <div className="lines"></div>
           <div className="imgBx">

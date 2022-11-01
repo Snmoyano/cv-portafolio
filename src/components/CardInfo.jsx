@@ -10,7 +10,6 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 import instagram from "../assets/instagram.svg";
-import clip from "../assets/clip.png";
 //imgBx card__image
 const CardInfo = () => {
   return (

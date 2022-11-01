@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   margin: 0;
   padding: 0;
@@ -25,15 +25,43 @@ li {
 }
 
 .App {
-  background: linear-gradient(
-    to bottom,
-    rgba(147, 206, 222, 1) 0%,
-    rgba(117, 189, 209, 1) 41%,
-    rgba(123, 73, 189, 1) 100%
-  );
-
-  color: black;
   text-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.315);
+  transition: 500ms ease background-image, 500ms ease color;
+}
+.react-switch,
+.container__swtich {
+  width: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  position: absolute;
+}
+.container__swtich:hover {
+  transform: scale(1.1);
+}
+#Dark {
+  background: linear-gradient(-45deg, #220e07, #2e0a0d, #0a2933, #041410);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+  transition: 500ms ease background-image, 500ms ease color;
+}
+#Light {
+  background: linear-gradient(-45deg, #ee7752, #e73c3c, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: black;
+  transition: 500ms ease background-image, 500ms ease color;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -41,17 +69,14 @@ li {
     display: grid;
     grid-template-columns: 1fr 3fr;
     position: relative;
-    background: linear-gradient(
-      to bottom,
-      rgba(147, 206, 222, 1) 0%,
-      rgba(117, 189, 209, 1) 41%,
-      rgba(123, 73, 189, 1) 100%
-    );
   }
   .general__info {
     grid-column: 1/2;
   }
   .general__content {
     grid-column: 2/3;
+  }
+  .container__swtich:hover {
+    transform: scale(1.1);
   }
 }

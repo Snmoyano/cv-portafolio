@@ -1,7 +1,12 @@
 [
   {
     "name": "Fundamentos de la programacion",
-    "domain": "",
+    "domain": "https://certificates.academlo.com/en/verify/67750633497528",
     "image": "../img/academlo.png"
+  },
+  {
+    "name": "Desarrolador Front End React",
+    "domain": "https://certificates.academlo.com/en/verify/25016789156671",
+    "image": "../img/front.png"
   }
 ]
