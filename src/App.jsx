@@ -39,7 +39,7 @@ function App() {
           onHandleColor="#0e306e"
           height={30}
           width={55}
-          borderRadius={3}
+          borderRadius={2}
           uncheckedIcon={
             <div
               style={{

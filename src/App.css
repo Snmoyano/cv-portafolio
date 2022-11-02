@@ -32,9 +32,10 @@ li {
 .container__swtich {
   width: 10px;
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 5px;
   position: absolute;
 }
+
 .container__swtich:hover {
   transform: scale(1.1);
 }

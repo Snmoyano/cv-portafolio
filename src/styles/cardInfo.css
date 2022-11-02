@@ -39,6 +39,7 @@
 }
 .card__title {
   padding-bottom: 20px;
+  text-align: center;
 }
 .card__description {
   text-align: center;

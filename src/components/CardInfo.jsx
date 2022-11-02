@@ -21,9 +21,10 @@ const CardInfo = () => {
       <h1 className="card__title">SERGIO NICOLAS MOYANO</h1>
       <ul className="card__list-des">
         <li className="card__description">
-          Developer <br /> SQL || CSS || HTML ||JAVASCRIPT ||REACT|| REDUX||
+          Developer Skills <br />◉ SQL ◉ CSS ◉ HTML ◉ JAVASCRIPT ◉REACT ◉ REDUX
+          ◉
         </li>
-        <li className="card__email"> sergio.nicolas.moyano@gmail.com</li>
+        <li className="card__email">📧 sergio.nicolas.moyano@gmail.com</li>
       </ul>
       <div className="card__icons">
         <a
