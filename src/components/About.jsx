@@ -49,6 +49,7 @@ const About = () => {
         <div className="container__form">
           <form name="contact" netlify netlify-honeypot="bot-field" hidden>
             <h3>Contactame</h3>
+            <input type="hidden" name="form-name" value="contact" />
             <div className="form__div">
               <label htmlFor="name">Nombre:↴</label>
               <input type="text" name="" id="name" />
