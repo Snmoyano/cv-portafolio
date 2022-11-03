@@ -31,7 +31,7 @@ const About = () => {
           FrontEnd.
         </p>
         <a
-          href="https://drive.google.com/file/d/1EX1PMerHdhUG9bygwSlCSvzpu7yE5vOh/view?usp=share_link"
+          href="https://drive.google.com/file/d/1TDAiAuKw_BFVLuGB-jlmP9gpAj2apYOC/view?usp=share_link"
           className="flowrino-btn"
         >
           Descargar CV
