@@ -11,6 +11,7 @@ import { Route, Routes } from "react-router-dom";
 import Preload from "./components/Preload";
 import { useThemeContext } from "./context/ThemeContext";
 import ReactSwitch from "react-switch";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   const { contextTheme, setContextTheme } = useThemeContext();
@@ -28,6 +29,20 @@ function App() {
 
   return (
     <div className="App" id={contextTheme}>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={25}
+        innerScale={1}
+        outerScale={1.7}
+        outerAlpha={0}
+        hasBlendMode={true}
+        outerStyle={{
+          border: "3px solid var(--cursor-color)",
+        }}
+        innerStyle={{
+          backgroundColor: "var(--cursor-color)",
+        }}
+      />
       <div className="container__swtich">
         <ReactSwitch
           onChange={handleSwitch}

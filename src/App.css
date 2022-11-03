@@ -45,6 +45,7 @@ li {
   animation: gradient 15s ease infinite;
   color: white;
   transition: 500ms ease background-image, 500ms ease color;
+  --cursor-color: rgb(12, 158, 177);
 }
 #Light {
   background: linear-gradient(-45deg, #ee7752, #e73c3c, #23a6d5, #23d5ab);
@@ -52,6 +53,7 @@ li {
   animation: gradient 15s ease infinite;
   color: black;
   transition: 500ms ease background-image, 500ms ease color;
+  --cursor-color: rgb(10, 51, 85);
 }
 @keyframes gradient {
   0% {

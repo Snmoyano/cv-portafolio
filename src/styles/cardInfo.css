@@ -88,6 +88,7 @@ a {
   transform: scale(1.1);
   border: none;
 }
+
 /**/
 @media (min-width: 600px) {
   .card__image-circle {

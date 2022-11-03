@@ -49,7 +49,7 @@ const CardInfo = () => {
       </div>
       <div className="card__buttons">
         <a className="card__btn-a" href="http://wa.link/q92v0n" target="_blank">
-          <button className="card__btn   btn__whats">
+          <button className="flowrino-btn">
             <BsWhatsapp />
           </button>
         </a>
@@ -58,7 +58,7 @@ const CardInfo = () => {
           href="mailto:sergio.nicolas.moyano@gmail.com"
           target="_blank"
         >
-          <button className="card__btn   btn__email">
+          <button className="flowrino-btn">
             <MdOutlineMailOutline />
           </button>
         </a>

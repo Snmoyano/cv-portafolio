@@ -30,6 +30,12 @@ const About = () => {
           certificaiones de fundamentos de la programación y como desarrollador
           FrontEnd.
         </p>
+        <a
+          href="https://drive.google.com/file/d/1EX1PMerHdhUG9bygwSlCSvzpu7yE5vOh/view?usp=share_link"
+          className="flowrino-btn"
+        >
+          Descargar CV
+        </a>
         <div className="skills">
           <img src={html} alt="" className="img__logo " />
           <img src={css} alt="" className="img__logo " />
@@ -39,6 +45,30 @@ const About = () => {
           <img src={github} alt="" className="img__logo " />
           <img src={postgres} alt="" className="img__logo " />
           <img src={mongo} alt="" className="img__logo " />
+        </div>
+        <div className="container__form">
+          <form action="" data-netlify="true">
+            <h3>Contactame</h3>
+            <div className="form__div">
+              <label htmlFor="name">Nombre:↴</label>
+              <input type="text" name="" id="name" />
+            </div>
+            <div className="form__div">
+              <label htmlFor="email">Email:↴</label>
+              <input type="email" name="" id="email" />
+            </div>
+            <div className="form__div">
+              <label htmlFor="textarea">Mensaje</label>
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Escribeme ..."
+              ></textarea>
+              <button className="flowrino-btn btn">Enviar</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
