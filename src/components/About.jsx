@@ -66,8 +66,8 @@ const About = () => {
                 rows="10"
                 placeholder="Escribeme ..."
               ></textarea>
+              <button className="flowrino-btn btn">Enviar</button>
             </div>
-            <button className="flowrino-btn btn">Enviar</button>
           </form>
         </div>
       </div>
