@@ -47,9 +47,14 @@ const About = () => {
           <img src={mongo} alt="" className="img__logo " />
         </div>
         <div className="container__form">
-          <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
             <h3>Contactame</h3>
-            <input type="hidden" name="form-name" value="contact" />
+
             <div className="form__div">
               <label htmlFor="name">Nombre:↴</label>
               <input type="text" name="" id="name" />
