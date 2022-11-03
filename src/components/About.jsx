@@ -47,7 +47,7 @@ const About = () => {
           <img src={mongo} alt="" className="img__logo " />
         </div>
         <div className="container__form">
-          <form action="" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
             <h3>Contactame</h3>
             <div className="form__div">
               <label htmlFor="name">Nombre:↴</label>
@@ -66,8 +66,8 @@ const About = () => {
                 rows="10"
                 placeholder="Escribeme ..."
               ></textarea>
-              <button className="flowrino-btn btn">Enviar</button>
             </div>
+            <button className="flowrino-btn btn">Enviar</button>
           </form>
         </div>
       </div>
