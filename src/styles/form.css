@@ -1,26 +1,27 @@
+.container__form {
+  display: flex;
+  align-items: center;
+}
 .form__div {
-  margin-top: 0.3rem;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 5px;
 }
 .form__div label {
-  align-self: flex-start;
-  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: -10px;
 }
-.form__div input,
-textarea {
-  font-size: 0.7rem;
-  padding: 0.2rem;
-  border-style: none;
-  border-radius: 2px;
-  transition: transform 500ms ease;
+.form__div input {
+  font-size: 1rem;
+  padding: 0.3rem;
+  width: 70vw;
+  margin-top: -10px;
 }
-.form__div input,
-textarea :hover {
-  transform: scale(1.01);
-  transition: transform 500ms ease;
+.form__div textarea {
+  width: 70vw;
+  aspect-ratio: 1;
 }
+
 .btn {
   margin-bottom: 1rem;
   align-self: center;
@@ -74,14 +75,22 @@ textarea :hover {
 
 @media (min-width: 600px) {
   .form__div {
-    margin-top: 0.3rem;
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 5px;
   }
-  .form__div input,
-  textarea {
-    min-width: 600px;
+  .form__div label {
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+  .form__div input {
     font-size: 1rem;
+    padding: 0.3rem;
+    width: 50vw;
+    margin-top: -10px;
+  }
+  .form__div textarea {
+    width: 50vw;
+    height: 200px;
   }
 }
