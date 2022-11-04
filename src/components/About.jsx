@@ -8,6 +8,7 @@ import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 import mongo from "../assets/mongo.svg";
 import postgres from "../assets/sql.svg";
+import Form from "../Form";
 
 const About = () => {
   return (
@@ -46,31 +47,7 @@ const About = () => {
           <img src={postgres} alt="" className="img__logo " />
           <img src={mongo} alt="" className="img__logo " />
         </div>
-        <div className="container__form">
-          <form name="contact" data-netlify="true">
-            <h3>Contactame</h3>
-
-            <div className="form__div">
-              <label htmlFor="name">Nombre:↴</label>
-              <input type="text" name="" id="name" />
-            </div>
-            <div className="form__div">
-              <label htmlFor="email">Email:↴</label>
-              <input type="email" name="" id="email" />
-            </div>
-            <div className="form__div">
-              <label htmlFor="textarea">Mensaje</label>
-              <textarea
-                name="textarea"
-                id="textarea"
-                cols="30"
-                rows="10"
-                placeholder="Escribeme ..."
-              ></textarea>
-              <button className="flowrino-btn btn">Enviar</button>
-            </div>
-          </form>
-        </div>
+        <Form />
       </div>
     </div>
   );
