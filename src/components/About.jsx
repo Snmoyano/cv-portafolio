@@ -31,12 +31,20 @@ const About = () => {
           certificaiones de fundamentos de la programación y como desarrollador
           FrontEnd.
         </p>
-        <a
-          href="https://drive.google.com/file/d/1TDAiAuKw_BFVLuGB-jlmP9gpAj2apYOC/view?usp=share_link"
-          className="flowrino-btn"
-        >
-          Descargar CV
-        </a>
+        <div className="container__cvs">
+          <a
+            href="https://drive.google.com/file/d/1TDAiAuKw_BFVLuGB-jlmP9gpAj2apYOC/view?usp=share_link"
+            className="flowrino-btn"
+          >
+            Descargar CV-ES
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1yBns3Z74OplwTuaC0iiO9Jr36cd9FTUi/view?usp=sharing"
+            className="flowrino-btn"
+          >
+            Descargar CV-EN
+          </a>
+        </div>
         <div className="skills">
           <img src={html} alt="" className="img__logo " />
           <img src={css} alt="" className="img__logo " />

@@ -14,7 +14,7 @@ const NavBar = ({ handleShow }) => {
         CERTIFICATES
       </li>
       <li className="list__menu-li" onClick={() => handleShow(4)}>
-        ABOUT ME
+        ABOUT
       </li>
     </ul>
   );

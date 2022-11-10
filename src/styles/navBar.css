@@ -1,6 +1,6 @@
 .list__menu {
   display: flex;
-  margin-top: 3px;
+  margin-top: 1.2rem;
 
   justify-content: space-around;
 }
