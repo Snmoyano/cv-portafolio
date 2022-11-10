@@ -5,7 +5,6 @@ import { MdRemoveRedEye } from "react-icons/md";
 const Certificates = ({ name, domain, image }) => {
   return (
     <div className="card__certificate">
-      <h3>{name}</h3>
       <img className="certificate__img" src={image} alt="" />
       <a href={domain} className="" target="_blank">
         <MdRemoveRedEye />

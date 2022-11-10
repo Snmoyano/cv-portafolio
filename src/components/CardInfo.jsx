@@ -10,8 +10,11 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 import instagram from "../assets/instagram.svg";
+import { useTranslation } from "react-i18next";
+
 //imgBx card__image
 const CardInfo = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <article className="card__info">
       <div className="card__image">
@@ -21,8 +24,8 @@ const CardInfo = () => {
       <h1 className="card__title">SERGIO NICOLAS MOYANO</h1>
       <ul className="card__list-des">
         <li className="card__description">
-          Developer Skills <br />◉ SQL ◉ CSS ◉ HTML ◉ JAVASCRIPT ◉REACT ◉ REDUX
-          ◉
+          {t("cardInfo.title")} <br />◉ SQL ◉ CSS ◉ HTML ◉ JAVASCRIPT ◉REACT ◉
+          REDUX ◉
         </li>
         <li className="card__email">📧 sergio.nicolas.moyano@gmail.com</li>
       </ul>

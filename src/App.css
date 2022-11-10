@@ -28,6 +28,7 @@ li {
   text-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.315);
   transition: 500ms ease background-image, 500ms ease color;
 }
+
 .react-switch,
 .container__swtich {
   width: 10px;
@@ -66,6 +67,19 @@ li {
     background-position: 0% 50%;
   }
 }
+.lg {
+  display: flex;
+
+  margin-left: 5px;
+  width: 20px;
+  gap: 5px;
+}
+.lg .lg__img {
+  width: 20px;
+}
+.lg .lg__img:hover {
+  border-radius: 1px solid black;
+}
 
 @media (min-width: 600px) {
   .App {
@@ -81,5 +95,17 @@ li {
   }
   .container__swtich:hover {
     transform: scale(1.1);
+  }
+  .lg {
+    display: flex;
+    width: 25px;
+    gap: 5px;
+  }
+  .lg .lg__img {
+    width: 25px;
+    cursor: pointer;
+  }
+  .lg .lg__img:hover {
+    border-radius: 1px solid black;
   }
 }

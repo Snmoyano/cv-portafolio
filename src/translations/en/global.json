@@ -1,0 +1,33 @@
+{
+  "preload": {
+    "title": "DEVELOPER",
+    "btn1": "TOUCH",
+    "btn2": "ENTER"
+  },
+  "about": {
+    "title": "I'm Nicolas",
+    "p1": "Developer with great skills and attitudes to face and overcome challenges contributing to the work group and thus be able to achieve the proposed objective.",
+    "p2": "I have knowledge in BackEnd in SQL working for 5 years in a company dedicated to the accounting of fuel dispatching stations.",
+    "p3": "I am currently studying 3D design (threejs) oriented to web I am also doing a bootcamp where I got my Programming fundamentals and developer certifications frontend.",
+    "cves": "Dowload CV-ES",
+    "cven": "Dowload CV-EN"
+  },
+  "form": {
+    "titleForm": "Contact me",
+    "name": "Name",
+    "message": "Message",
+    "button": "Submit message"
+  },
+  "navbar": {
+    "l2": "PROJECTS",
+    "l3": "CERTIFICATES",
+    "l4": "ABOUT"
+  },
+  "cardInfo": {
+    "title": "Developer skills "
+  },
+  "certifates": {
+    "c1": "Fundamentos de la Programacion",
+    "c2": "Desarrollador Fron End React"
+  }
+}

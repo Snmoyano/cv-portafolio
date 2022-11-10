@@ -9,40 +9,30 @@ import css from "../assets/css.svg";
 import mongo from "../assets/mongo.svg";
 import postgres from "../assets/sql.svg";
 import Form from "../Form";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="about__container">
-      <h1>Soy Nicolas</h1>
+      <h1>{t("about.title")}</h1>
+
       <div className="about__description">
-        <p>
-          Developer con grandes capacidades y actitudes para afrontar retos y
-          superarlos aportando al grupo de trabajo y asi poder lograr el
-          objetivo propuesto.
-        </p>
-        <p>
-          Cuento con conocimientos en BackEnd en SQL trabajando 3 años en una
-          empresa dedicada a la contabilidad de estaciones despachadoras de
-          combusitbles
-        </p>
-        <p>
-          Actualmente me encuentro estudiando diseño 3D (threejs)orientado a la
-          web ademas estoy realizando un bootcamp donde a obtuve mi
-          certificaiones de fundamentos de la programación y como desarrollador
-          FrontEnd.
-        </p>
+        <p>{t("about.p1")}</p>
+        <p>{t("about.p2")}</p>
+        <p>{t("about.p3")}</p>
         <div className="container__cvs">
           <a
             href="https://drive.google.com/file/d/1TDAiAuKw_BFVLuGB-jlmP9gpAj2apYOC/view?usp=share_link"
             className="flowrino-btn"
           >
-            Descargar CV-ES
+            {t("about.cves")}
           </a>
           <a
             href="https://drive.google.com/file/d/1yBns3Z74OplwTuaC0iiO9Jr36cd9FTUi/view?usp=sharing"
             className="flowrino-btn"
           >
-            Descargar CV-EN
+            {t("about.cven")}
           </a>
         </div>
         <div className="skills">

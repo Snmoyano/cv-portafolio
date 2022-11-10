@@ -12,8 +12,12 @@ import Preload from "./components/Preload";
 import { useThemeContext } from "./context/ThemeContext";
 import ReactSwitch from "react-switch";
 import AnimatedCursor from "react-animated-cursor";
+import { useTranslation } from "react-i18next";
+import spain from "../public/img/spain.svg";
+import united from "../public/img/united.svg";
 
 function App() {
+  const [t, i18n] = useTranslation("global");
   const { contextTheme, setContextTheme } = useThemeContext();
   const [checked, setChecked] = useState(false);
   const handleSwitch = (nextChecked) => {
@@ -29,20 +33,6 @@ function App() {
 
   return (
     <div className="App" id={contextTheme}>
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={25}
-        innerScale={1}
-        outerScale={1.7}
-        outerAlpha={0}
-        hasBlendMode={true}
-        outerStyle={{
-          border: "3px solid var(--cursor-color)",
-        }}
-        innerStyle={{
-          backgroundColor: "var(--cursor-color)",
-        }}
-      />
       <div className="container__swtich">
         <ReactSwitch
           onChange={handleSwitch}
@@ -106,7 +96,38 @@ function App() {
           className="react-switch"
           id="small-radius-switch"
         />
+        <div className="lg">
+          <img
+            className="lg__img"
+            src={spain}
+            alt=""
+            onClick={() => i18n.changeLanguage("es")}
+          />
+          <img
+            className="lg__img"
+            src={united}
+            alt=""
+            onClick={() => i18n.changeLanguage("en")}
+          />
+          {/* <button onClick={() => i18n.changeLanguage("es")}></button>
+          <button onClick={() => i18n.changeLanguage("en")}>EN</button> */}
+        </div>
       </div>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={25}
+        innerScale={1}
+        outerScale={1.7}
+        outerAlpha={0}
+        hasBlendMode={true}
+        outerStyle={{
+          border: "3px solid var(--cursor-color)",
+        }}
+        innerStyle={{
+          backgroundColor: "var(--cursor-color)",
+        }}
+      />
+
       <Routes>
         <Route path="/" element={<Preload />} />
         <Route
