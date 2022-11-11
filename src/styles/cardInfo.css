@@ -21,6 +21,7 @@
   z-index: 1000;
   box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.315);
 }
+
 .card__image-circle {
   z-index: 500;
   width: 170px;

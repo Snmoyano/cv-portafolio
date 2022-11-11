@@ -39,6 +39,7 @@ li {
 
 .container__swtich:hover {
   transform: scale(1.1);
+  filter: drop-shadow(5px 5px 3px #4444dd77);
 }
 #Dark {
   background: linear-gradient(-45deg, #220e07, #2e0a0d, #0a2933, #041410);
@@ -96,6 +97,7 @@ li {
   }
   .container__swtich:hover {
     transform: scale(1.1);
+    filter: drop-shadow(5px 5px 3px #4444dd77);
   }
   .lg {
     display: flex;

@@ -6,7 +6,7 @@ const NavInfo = ({ show }) => {
     <div className={`nav__info ${show === 1 ? "show" : ""}`}>
       <h2 className="info__title m-bottom"></h2>
 
-      <ul className="info__list m-bottom">
+      <ul className="info__list ">
         <li className="info__item">
           {/* <div className="skills">
             <img src={html} alt="" className="img__logo " />

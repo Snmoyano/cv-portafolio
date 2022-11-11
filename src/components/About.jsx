@@ -21,6 +21,16 @@ const About = () => {
         <p>{t("about.p1")}</p>
         <p>{t("about.p2")}</p>
         <p>{t("about.p3")}</p>
+        <div className="skills">
+          <img src={html} alt="" className="img__logo " />
+          <img src={css} alt="" className="img__logo " />
+          <img src={redux} alt="" className="img__logo " />
+          <img src={node} alt="" className="img__logo " />
+          <img src={react} alt="" className="img__logo " />
+          <img src={github} alt="" className="img__logo " />
+          <img src={postgres} alt="" className="img__logo " />
+          <img src={mongo} alt="" className="img__logo " />
+        </div>
         <div className="container__cvs">
           <a
             href="https://drive.google.com/file/d/1TDAiAuKw_BFVLuGB-jlmP9gpAj2apYOC/view?usp=share_link"
@@ -35,16 +45,7 @@ const About = () => {
             {t("about.cven")}
           </a>
         </div>
-        <div className="skills">
-          <img src={html} alt="" className="img__logo " />
-          <img src={css} alt="" className="img__logo " />
-          <img src={redux} alt="" className="img__logo " />
-          <img src={node} alt="" className="img__logo " />
-          <img src={react} alt="" className="img__logo " />
-          <img src={github} alt="" className="img__logo " />
-          <img src={postgres} alt="" className="img__logo " />
-          <img src={mongo} alt="" className="img__logo " />
-        </div>
+
         <Form />
       </div>
     </div>

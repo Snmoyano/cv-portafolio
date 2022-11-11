@@ -30,6 +30,7 @@
 @media (min-width: 600px) {
   .container__cvs {
     display: flex;
+    flex-direction: row;
     gap: 0.5rem;
   }
 }
