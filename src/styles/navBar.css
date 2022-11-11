@@ -5,7 +5,8 @@
   justify-content: space-around;
 }
 .list__menu-li {
-  padding: 0.5em;
+  padding: 0.3em;
+  font-size: 0.83rem;
   font-weight: bold;
 }
 
@@ -23,7 +24,11 @@
 @media (min-width: 600px) {
   .list__menu {
     margin: 10px;
-    justify-content: flex-start;
+  }
+  .list__menu-li {
+    padding: 0.3em;
+    font-size: 1.4rem;
+    font-weight: bold;
   }
   .menu__info {
     display: none;

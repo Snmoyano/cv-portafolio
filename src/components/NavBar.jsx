@@ -16,7 +16,7 @@ const NavBar = ({ handleShow }) => {
         {t("navbar.l3")}
       </li>
       <li className="list__menu-li" onClick={() => handleShow(4)}>
-        {t("navbar.l4")}
+        ABOUT
       </li>
     </ul>
   );

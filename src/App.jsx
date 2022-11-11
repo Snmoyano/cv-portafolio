@@ -148,7 +148,7 @@ function App() {
                 ) : show === 3 ? (
                   <ListCertificates />
                 ) : (
-                  <About />
+                  <About t={t} />
                 )}
               </div>
             </>

@@ -42,6 +42,7 @@ li {
 }
 #Dark {
   background: linear-gradient(-45deg, #220e07, #2e0a0d, #0a2933, #041410);
+  /* width: 100vw; */
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: white;
