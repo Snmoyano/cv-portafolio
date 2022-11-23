@@ -26,6 +26,12 @@
   "cardInfo": {
     "title": "Habilidades de desarrollador "
   },
+  "projects": {
+    "descriptionF": "App realizada con #React #Html #Css #Javascript",
+    "descriptionB": "Back-End realizada con #NodeJs #Express #PostgreSql #DBeaver",
+    "titleF": "Proyectos Front-End",
+    "titleB": "Proyectos Back-End"
+  },
   "certifates": {
     "c1": "Fundamentos de la Programacion",
     "c2": "Desarrollador Fron End React"

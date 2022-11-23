@@ -23,6 +23,12 @@
     "l3": "CERTIFICATES",
     "l4": "ABOUT"
   },
+  "projects": {
+    "descriptionF": "App made with #React #Html #Css #Javascript",
+    "descriptionB": "Back-End made with #NodeJs #Express #PostgreSql #DBeaver",
+    "titleF": "Projects Front-End",
+    "titleB": "Projects Back-End"
+  },
   "cardInfo": {
     "title": "Developer skills "
   },

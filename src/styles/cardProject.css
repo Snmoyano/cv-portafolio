@@ -49,6 +49,9 @@
   flex-direction: column;
   align-self: flex-end;
 }
+.content__titles span {
+  font-size: 0.8rem;
+}
 
 .content__icons {
   display: flex;

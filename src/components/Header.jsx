@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <img src={contact} alt="" className="header__img" />
-      <h2 className="header__title">FRONT-END</h2>
+      <h2 className="header__title">FULL STACK</h2>
       <p className="header__description">Developer</p>
     </header>
   );

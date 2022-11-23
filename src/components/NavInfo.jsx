@@ -19,7 +19,7 @@ const NavInfo = ({ show }) => {
             <img src={mongo} alt="" className="img__logo " />
           </div> */}
         </li>
-        <li className="info__item"> — Front End —</li>
+        <li className="info__item"> — Full Stack —</li>
         <li className="info__item"> — Web desing —</li>
         <li className="info__item"> — Mobile Desing —</li>
         <li className="info__item"> — UI/UX —</li>

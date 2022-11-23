@@ -24,8 +24,8 @@ const CardInfo = () => {
       <h1 className="card__title">SERGIO NICOLAS MOYANO</h1>
       <ul className="card__list-des">
         <li className="card__description">
-          {t("cardInfo.title")} <br />◉ SQL ◉ CSS ◉ HTML ◉ JAVASCRIPT ◉REACT ◉
-          REDUX ◉
+          {t("cardInfo.title")} <br /> ◉ CSS ◉ HTML ◉ CSS ◉ JAVASCRIPT ◉REACT ◉
+          REDUX ◉ NODE JS ◉ EXPRESS ◉ SQL
         </li>
         <li className="card__email">📧 sergio.nicolas.moyano@gmail.com</li>
       </ul>
