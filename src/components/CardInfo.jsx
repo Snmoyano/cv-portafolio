@@ -41,7 +41,7 @@ const CardInfo = () => {
           {/* <AiFillGithub /> */}
           <img src={github} alt="" className="img__logo " />
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.instagram.com/_nico_moyano_/" target="_blank">
           {/* <TiSocialTwitterCircular /> */}
           <img src={instagram} alt="" className="img__logo " />
         </a>

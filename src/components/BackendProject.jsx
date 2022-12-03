@@ -18,9 +18,9 @@ const BackendProject = ({ name, img, domain }) => {
           <span>{t("projects.descriptionB")}</span>
         </div>
         <div className="content__icons">
-          <a href={domain} className="card__link" target="_blank">
-            <img src={folder} alt="" className="mouse__icon" />
-          </a>
+          <img src={folder} alt="" className="mouse__icon" />
+          {/* <a href={domain} className="card__link" target="_blank">
+          </a> */}
         </div>
       </div>
     </article>
