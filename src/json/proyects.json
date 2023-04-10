@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ecommerce",
+    "domain": "https://warm-snickerdoodle-9ed330.netlify.app",
+    "image": "../img/ecommerce.png"
+  },
+  {
+    "name": "Poke Api",
+    "domain": "https://poke-api-snmoyano.netlify.app",
+    "image": "../img/poke.png"
+  },
+  {
+    "name": "Api Users",
+    "domain": "https://users-crud-snm.netlify.app",
+    "image": "../img/crud.png"
+  },
+  {
+    "name": "Rick And Morty App",
+    "domain": "https://rick-and-morty-snmoyano.netlify.app",
+    "image": "../img/rick.png"
+  },
+  {
+    "name": "Weather App",
+    "domain": "https://weather-app-snm.netlify.app",
+    "image": "../img/weather.png"
+  },
+  {
+    "name": "Calculator",
+    "domain": "https://calculator-react-snmoyano.netlify.app",
+    "image": "../img/calculator.png"
+  },
+  {
+    "name": "Quotes",
+    "domain": "https://e-1-react.netlify.app",
+    "image": "../img/quotes.png"
+  },
+  {
+    "name": "Task App",
+    "domain": "despegable",
+    "image": "../img/task.jpeg"
+  }
+]

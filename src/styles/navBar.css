@@ -1,0 +1,42 @@
+.list__menu {
+  display: flex;
+  margin-top: 1.2rem;
+
+  justify-content: space-around;
+}
+.list__menu-li {
+  padding: 0.3em;
+  font-size: 0.83rem;
+  font-weight: bold;
+}
+
+.list__menu-li:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 1.5em;
+}
+.list__menu-li:active {
+  background-color: black;
+  color: white;
+  border-radius: 1.5em;
+}
+
+@media (min-width: 600px) {
+  .list__menu {
+    margin: 10px;
+  }
+  .list__menu-li {
+    padding: 0.3em;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .menu__info {
+    display: none;
+  }
+  .list__menu {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    justify-content: center;
+  }
+}

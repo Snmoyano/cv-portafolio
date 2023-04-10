@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1em;
+  margin-bottom: 1rem;
+}
+.header__img {
+  align-self: center;
+  height: 100px;
+  width: 100px;
+}
+@media (min-width: 600px) {
+  .header {
+    grid-column: span 3;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    transition: 500ms ease opacity;
+  }
+  .header__img {
+    height: 100px;
+    width: 100px;
+    transition: 500ms ease opacity;
+    align-items: flex-end;
+  }
+  .header__title {
+    display: none;
+  }
+}

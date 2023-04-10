@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Desarrollador Full Stack & Ciencias Informáticas",
+    "domain": "https://certificates.academlo.com/en/verify/09277146299845",
+    "image": "../img/full.png"
+  },
+  {
+    "name": "Desarrollador Back End Node JS",
+    "domain": "https://certificates.academlo.com/en/verify/61755197003341",
+    "image": "../img/back.png"
+  },
+  {
+    "name": "Fundamentos de la programacion",
+    "domain": "https://certificates.academlo.com/en/verify/67750633497528",
+    "image": "../img/academlo.png"
+  },
+  {
+    "name": "Desarrollador Front End React",
+    "domain": "https://certificates.academlo.com/en/verify/25016789156671",
+    "image": "../img/front.png"
+  }
+]
