@@ -13,11 +13,11 @@ const ListProject = () => {
   return (
     <>
       <div className="project__title">
-        <h3>{t('projects.titleF')}</h3>
+        <h3>{t('projects.titleB')}</h3>
       </div>
       <div className="container__proyects">
-        {proyects.map((project) => (
-          <CardProject
+        {backends.map((project) => (
+          <BackendProject
             key={project.name}
             name={project.name}
             img={project.image}
@@ -26,11 +26,11 @@ const ListProject = () => {
         ))}
       </div>
       <div className="project__title">
-        <h3>{t('projects.titleB')}</h3>
+        <h3>{t('projects.titleF')}</h3>
       </div>
       <div className="container__proyects">
-        {backends.map((project) => (
-          <BackendProject
+        {proyects.map((project) => (
+          <CardProject
             key={project.name}
             name={project.name}
             img={project.image}

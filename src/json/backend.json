@@ -1,27 +1,32 @@
 [
   {
+    "name": "Students Notes Java",
+    "domain": "https://github.com/Snmoyano/crudJava",
+    "image": "../img/java.jpeg"
+  },
+  {
     "name": "Red Social Api",
     "domain": "https://github.com/Snmoyano/Red-Social-Api",
-    "image": "../img/backend.jpg"
+    "image": "../img/node.png"
   },
   {
     "name": "Api CRUD Users",
     "domain": "https://github.com/Snmoyano/users-base",
-    "image": "../img/backend.jpg"
+    "image": "../img/node.png"
   },
   {
     "name": "Bot Telegram",
     "domain": "https://github.com/Snmoyano/ShortLink",
-    "image": "../img/backend.jpg"
+    "image": "../img/node.png"
   },
   {
     "name": "Acortador Url ShortLink",
     "domain": "https://github.com/Snmoyano/ShortLink",
-    "image": "../img/backend.jpg"
+    "image": "../img/node.png"
   },
   {
     "name": "TODO API Tareas",
     "domain": "https://github.com/Snmoyano/todo-api-tareas",
-    "image": "../img/backend.jpg"
+    "image": "../img/node.png"
   }
 ]
