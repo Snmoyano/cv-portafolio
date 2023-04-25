@@ -1,5 +1,5 @@
 import React from 'react'
-import folder from '../assets/folder.gif'
+import folder from '../assets/GitHub-logo.gif'
 import { useTranslation } from 'react-i18next'
 import '../styles/cardProject.css'
 

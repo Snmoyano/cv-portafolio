@@ -1,5 +1,10 @@
 [
   {
+    "name": "Java Inicial",
+    "domain": "https://drive.google.com/file/d/1WL_z7_bqYKWkWoM-KvOMpmzJPi4ZTQvQ/view?usp=sharing",
+    "image": "../img/java.jpg"
+  },
+  {
     "name": "Desarrollador Full Stack & Ciencias Informáticas",
     "domain": "https://certificates.academlo.com/en/verify/09277146299845",
     "image": "../img/full.png"
