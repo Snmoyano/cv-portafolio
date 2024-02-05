@@ -1,5 +1,15 @@
 [
   {
+    "name": "Ecommerce Tecnologia",
+    "domain": "https://github.com/Snmoyano/estudiantesRegistro",
+    "image": "../img/java.jpeg"
+  },
+  {
+    "name": "Registro de Estudiantes",
+    "domain": "https://github.com/Snmoyano/estudiantesRegistro",
+    "image": "../img/java.jpeg"
+  },
+  {
     "name": "Students Notes Java",
     "domain": "https://github.com/Snmoyano/crudJava",
     "image": "../img/java.jpeg"
