@@ -1,20 +1,20 @@
-import React from "react";
-import "../styles/cardInfo.css";
-import picture from "../assets/picture.jpg";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { AiFillGithub } from "react-icons/ai";
-import { TiSocialTwitterCircular } from "react-icons/ti";
-import { SiGooglemaps } from "react-icons/si";
-import { BsWhatsapp } from "react-icons/bs";
-import { MdOutlineMailOutline } from "react-icons/md";
-import linkedin from "../assets/linkedin.svg";
-import github from "../assets/github.svg";
-import instagram from "../assets/instagram.svg";
-import { useTranslation } from "react-i18next";
+import React from 'react'
+import '../styles/cardInfo.css'
+import picture from '../assets/picture.jpg'
+import { TiSocialLinkedinCircular } from 'react-icons/ti'
+import { AiFillGithub } from 'react-icons/ai'
+import { TiSocialTwitterCircular } from 'react-icons/ti'
+import { SiGooglemaps } from 'react-icons/si'
+import { BsWhatsapp } from 'react-icons/bs'
+import { MdOutlineMailOutline } from 'react-icons/md'
+import linkedin from '../assets/linkedin.svg'
+import github from '../assets/github.svg'
+import instagram from '../assets/instagram.svg'
+import { useTranslation } from 'react-i18next'
 
 //imgBx card__image
 const CardInfo = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t, i18n] = useTranslation('global')
   return (
     <article className="card__info">
       <div className="card__image">
@@ -24,8 +24,8 @@ const CardInfo = () => {
       <h1 className="card__title">SERGIO NICOLAS MOYANO</h1>
       <ul className="card__list-des">
         <li className="card__description">
-          {t("cardInfo.title")} <br /> ◉ CSS ◉ HTML ◉ CSS ◉ JAVASCRIPT ◉REACT ◉
-          REDUX ◉ NODE JS ◉ EXPRESS ◉ SQL
+          {t('cardInfo.title')} <br /> ◉ CSS ◉ HTML ◉ CSS ◉ JAVASCRIPT ◉REACT ◉
+          REDUX ◉ NODE JS ◉ EXPRESS ◉ SQL ◉ JAVA ◉ SPRING BOOT
         </li>
         <li className="card__email">📧 sergio.nicolas.moyano@gmail.com</li>
       </ul>
@@ -67,7 +67,7 @@ const CardInfo = () => {
         </a>
       </div>
     </article>
-  );
-};
+  )
+}
 
-export default CardInfo;
+export default CardInfo
